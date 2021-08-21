@@ -288,7 +288,8 @@ img {vertical-align: middle;}
     -o-background-size: cover;
     background-size: cover;">
 
-<?php include 'raks.php';?>
+<audio src="bhaibhn.mp3" id="my_audio" loop="loop"></audio>
+
 
 <!------- This Website was Created by vikrantup72 ------------>
 
@@ -416,6 +417,11 @@ var x = setInterval(function() {
 </script>       
             </div>
         </div>
+  <script type="text/javascript">
+    window.onload=function(){
+      document.getElementById("my_audio").play();
+    }
+  </script>
  </body>
  <center>
    <a class="footerbtn" href="whatsapp://send?text= 🇮🇳  *Touch This Blue line Enter Your name and See Magic*
